@@ -1,0 +1,45 @@
+.my-carousel {
+    width: 100%;
+}
+
+.my-carousel img {
+    height: 500px;
+    width: 100%;
+    border-radius: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .my-carousel img {
+        height: 300px;
+    }
+}
+
+.testimony {
+    margin-bottom: 40px;
+}
+
+.testimony__title {
+    text-align: center;
+}
+
+.testimony__title--adjust {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.testimony__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+
+.testimony__txt {
+    color: #aea286;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 40px;
+}
